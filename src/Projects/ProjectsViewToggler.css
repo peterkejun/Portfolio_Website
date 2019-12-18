@@ -1,0 +1,24 @@
+.toggler-title {
+    font-size: 1.25rem;
+    font-weight: 900;
+    color: #3D128D;
+    margin-right: 2rem;
+    margin-bottom: 0;
+}
+
+.container-fluid.toggler img {
+    height: 1.5rem;
+    width: auto;
+    cursor: pointer;
+}
+
+.grid-image {
+    margin-right: 1.5rem;
+}
+
+.container-fluid.toggler {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}

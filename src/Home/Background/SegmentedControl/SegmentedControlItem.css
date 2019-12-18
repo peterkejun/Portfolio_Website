@@ -1,0 +1,20 @@
+.segmented-control-item-container {
+    border-radius: 10px;
+    background-color: transparent;
+    min-height: 3.0625rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem 1.25rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.segmented-control-item-container h1 {
+    font-weight: normal;
+    font-size: 1.625rem;
+    color: white;
+    min-width: 3rem;
+    text-align: center;
+    margin: 0 0.8125rem;
+}

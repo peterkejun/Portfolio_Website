@@ -1,0 +1,21 @@
+.milestone-card-date-label {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.milestone-card-date-label div {
+    background-color: rgba(162, 66, 61, 0.2);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.milestone-card-date-label h1 {
+    color: rgb(162, 66, 61);
+    font-family: 'Roboto Mono', monospace;
+    font-weight: normal;
+    font-size: 0.8rem;
+    display: inline-block;
+    margin: 0.25rem 0.6rem;
+}

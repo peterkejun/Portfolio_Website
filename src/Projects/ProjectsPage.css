@@ -1,0 +1,23 @@
+.project-title {
+    font-weight: bold;
+    font-size: 4.25rem;
+    color: #444444;
+    margin-top: 4rem;
+}
+
+.project-description {
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.625rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #777777;
+}
+
+.container-fluid.main {
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

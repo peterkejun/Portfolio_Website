@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="48px" viewBox="0 0 43 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>autocad logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#BA2C26" offset="0%"></stop>
+            <stop stop-color="#942726" offset="100%"></stop>
+        </linearGradient>
+        <path d="M501.820513,146 L487.205128,146 L477,186 L485.769231,186 L488.025641,176.615385 L500.282051,176.615385 L502.589744,186 L512.076923,186 L501.820513,146 Z M498.538462,169.435897 L489.769231,169.435897 L492.897436,156.769231 C493.358974,154.974359 493.769231,153.128205 494.076923,151.282051 L494.333333,151.282051 C494.589744,153.128205 495,154.974359 495.461538,156.769231 L498.538462,169.435897 Z" id="path-2"></path>
+        <filter x="-20.0%" y="-12.5%" width="139.9%" height="135.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-2" transform="translate(-555.000000, -2899.000000)" fill-rule="nonzero">
+            <g id="background" transform="translate(1.000000, 873.000000)">
+                <g id="logos" transform="translate(81.000000, 1882.000000)">
+                    <g id="autocad-logo">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

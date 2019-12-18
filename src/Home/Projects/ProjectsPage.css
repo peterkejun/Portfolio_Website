@@ -1,0 +1,110 @@
+.projects-page-container {
+    background-color: #2b2b2b;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.display-container {
+    /*background-image: url("../../img/abstract_mountain.svg");*/
+    /*background-attachment: fixed;*/
+}
+
+.programming-experience-display-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    column-count: 1;
+    z-index: 2;
+}
+
+.programming-experience-title {
+    color: white;
+}
+
+@media (min-width: 640px) {
+    .programming-experience-display-container {
+        /*display: flex;*/
+        /*flex-direction: row;*/
+        /*align-items: flex-start;*/
+        /*justify-content: flex-start;*/
+        /*overflow-x: scroll;*/
+        display: block;
+        column-count: 2;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .projects-page-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (min-width: 700px) {
+    .programming-experience-display-container {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .programming-experience-display-container {
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .programming-experience-display-container {
+        /*display: flex;*/
+        /*flex-direction: row;*/
+        /*align-items: flex-start;*/
+        /*justify-content: flex-start;*/
+        column-count: 3;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    /*.project-item-container:hover {*/
+    /*    max-height: 1000rem;*/
+    /*    transition: max-height 2s;*/
+    /*}*/
+}
+
+@media (min-width: 1050px) {
+    .programming-experience-display-container {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1150px) {
+    .programming-experience-display-container {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+}
+
+@media (min-width: 1300px) {
+    .programming-experience-display-container {
+        column-count: 4;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media (min-width: 1350px) {
+    .programming-experience-display-container {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}

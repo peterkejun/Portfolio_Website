@@ -1,0 +1,176 @@
+.footer-container {
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.footer-central-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 0 1.5rem;
+}
+
+.footer-contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 1.5rem 0;
+}
+
+.footer-credit-container, .footer-contact-container {
+    max-width: 70rem;
+}
+
+.network-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.network-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.footer-icon-img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.footer-contact-title {
+    color: white;
+    font-weight: bold;
+    font-size: 1.1875rem;
+    margin: 1.2rem 1.75rem;
+}
+
+.subscribe-container, .network-container {
+    margin: 1rem 0;
+}
+
+.subscribe-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.subscribe-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 1.75rem;
+}
+
+.subscribe-title {
+    color: white;
+    font-weight: bold;
+    font-size: 1.1875rem;
+}
+
+.subscribe-subtitle {
+    color: #999999;
+    font-weight: lighter;
+    font-size: 1rem;
+    margin-top: 0.25rem;
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.subscribe-button {
+    margin-top: 0.625rem;
+    /*background-color: #FFCE00;*/
+}
+
+.subscribe-form-control {
+    margin-top: 0.625rem;
+    min-width: 20rem;
+    max-width: 100%;
+    margin-bottom: 0;
+}
+
+.subscribe-form-group {
+    margin-bottom: 0;
+}
+
+.footer-credit-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    padding: 0;
+}
+
+.footer-credit-container a, h1 {
+    color: white;
+    font-size: 0.5rem;
+    margin: 0;
+}
+
+.footer-credit-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1.2rem 1.75rem;
+}
+
+.footer-credit-title {
+    color: white;
+    font-size: 1.1875rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.footer-credit-table {
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+
+}
+
+@media (min-width: 768px) {
+    .subscribe-form {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+
+    .subscribe-button {
+        margin-left: 0.625rem;
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer-contact-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .subscribe-container, .network-container, .footer-credit-container {
+        padding: 0 2rem;
+    }
+    .footer-credit-table {
+        overflow-x: auto;
+    }
+}
+

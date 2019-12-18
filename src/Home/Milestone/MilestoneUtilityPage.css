@@ -1,0 +1,12 @@
+.milestone-utility-container {
+    margin: 0;
+    padding: 0;
+}
+
+.milestone-utility-inner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-right: 2px solid #444444;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="16px" viewBox="0 0 10 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>icon-next</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-2" transform="translate(-203.000000, -3197.000000)">
+            <g id="background" transform="translate(1.000000, 873.000000)">
+                <g id="logos" transform="translate(81.000000, 1882.000000)">
+                    <g id="icon-next" transform="translate(126.500000, 449.500000) scale(-1, 1) translate(-126.500000, -449.500000) translate(113.000000, 436.000000)">
+                        <rect id="box" x="0" y="0" width="27" height="27"></rect>
+                        <polyline id="Path" stroke="#FFFFFF" stroke-width="2" points="10 7 17 14 10 21"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+.segmented-control-inner-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: space-around;
+    flex-wrap: wrap;
+    min-height: 4.0625rem;
+    background-color: rgba(85, 85, 85, 0.5);
+    margin: auto;
+    border-radius: 8px;
+}
+
+.segmented-control-container {
+    display: inline-block;
+}

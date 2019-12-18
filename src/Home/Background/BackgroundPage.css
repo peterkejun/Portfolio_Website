@@ -1,0 +1,147 @@
+.background-page-container {
+    background-color: #333333;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+
+.background-title {
+    color: white;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.background-subtitle {
+    color: white;
+    font-weight: bold;
+    font-size: 2.215rem;
+    text-align: center;
+}
+
+.background-large-paragraph {
+    color: #999999;
+    font-weight: bold;
+    font-size: 1.625rem;
+    text-align: center;
+}
+
+.background-small-paragraph {
+    color: #999999;
+    font-weight: normal;
+    font-size: 1.625rem;
+    text-align: center;
+}
+
+.background-education-container, .background-footprint-container {
+    padding: 0;
+}
+
+.background-footprint-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.375rem;
+}
+
+.background-footprint-img {
+    width: auto;
+    margin: 0.5rem 1rem;
+}
+
+.background-footprint-img-start-edge {
+    margin-left: 0;
+}
+
+.background-footprint-img-end-edge {
+    margin-right: 0;
+}
+
+.background-subtitles-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.background-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    margin-top: 2rem;
+}
+
+.background-profile-image {
+    max-width: 18.8125rem;
+    min-width: 10rem;
+    height: auto;
+}
+
+.background-text-container {
+    padding: 0 2.5rem;
+}
+
+
+@media (min-width: 640px) {
+
+}
+
+@media (min-width: 700px) {
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .background-page-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: stretch;
+        align-items: center;
+    }
+
+    .background-subtitles-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: stretch;
+    }
+
+    .background-subtitle, .background-large-paragraph, .background-small-paragraph, .background-title {
+        text-align: left;
+    }
+
+    .background-title {
+        margin-top: 6.3125rem;
+    }
+
+    .background-image-container {
+        padding-right: 1rem;
+    }
+
+    .background-footprint-img-container {
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .background-text-container {
+        padding: 0 0 0 3rem;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .background-text-container {
+        padding: 0 0 0 5.0625rem;
+    }
+    .background-image-container {
+        padding-right: 5rem;
+    }
+}
+

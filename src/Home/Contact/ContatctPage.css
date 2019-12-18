@@ -1,0 +1,85 @@
+.contact-container {
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contact-title {
+    text-align: center;
+    color: white;
+    margin-top: 7.5rem;
+}
+
+.contact-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 4.375rem 1rem;
+    max-width: 23.125rem;
+}
+
+.contact-card {
+    flex: 1 1 0;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 1rem 0.125rem;
+}
+
+.contact-icon-img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.contact-subtitle {
+    font-weight: bold;
+    font-size: 1.625rem;
+    color: white;
+    margin-top: 2.0625rem;
+    margin-bottom: 0.6875rem;
+}
+
+.contact-paragraph {
+    font-weight: 300;
+    font-size: 1.25rem;
+    color: white;
+}
+
+
+@media (min-width: 640px) {
+    .contact-card-container {
+        max-width: 70%;
+    }
+}
+
+@media (min-width: 700px) {
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .contact-card-container {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        max-width: 71.25rem;
+        margin: 4.375rem 0.5rem;
+    }
+
+    .contact-card {
+        margin: 0 1.5rem;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .contact-card-container {
+        margin: 4.375rem 2rem;
+    }
+}

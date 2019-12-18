@@ -1,0 +1,25 @@
+.projects-grid-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.projects-grid-card {
+    border-radius: 0.625rem;
+    padding: 0;
+    margin-bottom: 3rem;
+    box-shadow: 0 7px 25px 0 rgba(0,0,0,0.03), 0 4px 12px 0 rgba(0,0,0,0.03);
+    transition-duration: 0.3s;
+}
+
+.projects-grid-card:hover {
+    box-shadow: 0 7px 15px 15px rgba(0,0,0,0.03), 0 7px 15px 0 rgba(0,0,0,0.03);
+    transform: translateY(-0.25rem);
+}
+
+.projects-grid-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    max-width: 71.25rem;
+}

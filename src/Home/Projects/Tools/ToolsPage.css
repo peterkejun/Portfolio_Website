@@ -1,0 +1,116 @@
+.tools-page-container {
+    background-color: #222222;
+    /*border-radius: 13px;*/
+    padding: 0 1rem;
+    margin: 0 0.75rem -2rem 0.75rem;
+    /*box-shadow: 0 3px 23px 2px rgba(0, 0, 0, 0.5);*/
+}
+
+.tools-page-title {
+    color: white;
+    font-weight: bold;
+    font-size: 2.75rem;
+    margin-bottom: 2.0625rem;
+    margin-top: 2.625rem;
+    text-align: center;
+}
+
+.tools-page-logos-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.tools-page-separator {
+    height: 1px;
+    margin: 1.375rem 0.75rem;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.tool-detail-image {
+    height: auto;
+    max-height: 75px;
+    max-width: 75px;
+    width: auto;
+    margin-left: 2.0625rem;
+}
+
+.tools-detail-toggle-pre, .tools-detail-toggle-next {
+    user-select: none;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 0.75rem 1rem;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.tools-detail-toggle-next:hover, .tools-detail-toggle-pre:hover {
+    box-shadow: 0 7px 15px 15px rgba(0,0,0,0.1), 0 7px 15px 0 rgba(0,0,0,0.1);
+    transform: translateY(-0.05rem);
+}
+
+.tools-detail-toggle-pre {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 0.875rem;
+}
+
+.tools-detail-toggle-next {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 0.875rem;
+}
+
+.tools-detail-pre-title {
+    font-size: 1.4375rem;
+    margin-left: 10px;
+}
+
+.tools-detail-next-title {
+    font-size: 1.4375rem;
+    margin-right: 10px;
+}
+
+.tools-detail-toggle-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.3125rem;
+    margin-bottom: 1.9375rem;
+}
+
+.tools-detail-paragraph {
+    color: white;
+    font-size: 1.4375rem;
+}
+
+.tools-detail-display-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.tools-detail-paragraph {
+    margin-top: 1.5625rem;
+    margin-left: 2.9375rem;
+}
+
+@media (min-width: 650px) {
+    .tools-page-container {
+        margin: 0 2rem -2rem 2rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .tools-page-container {
+        padding: 0 4.3125rem;
+        margin: 0 5.0625rem -2rem 5.0625rem;
+    }
+    .tools-page-title {
+        text-align: left;
+    }
+}

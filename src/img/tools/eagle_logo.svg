@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="48px" viewBox="0 0 33 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>eagle logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="163.179916%" gradientTransform="translate(0.500000,0.000000),scale(1.000000,0.612821),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-1">
+            <stop stop-color="#A95F1B" offset="0%"></stop>
+            <stop stop-color="#C17F34" offset="49.2636191%"></stop>
+            <stop stop-color="#A25A18" offset="100%"></stop>
+        </radialGradient>
+        <path d="M403.230769,179.076923 L418.512821,179.076923 L418.512821,186 L400,186 C396.686292,186 394,183.313708 394,180 L394,152 C394,148.686292 396.686292,146 400,146 L418.051282,146 L418.051282,146 L418.051282,152.923077 L403.230769,152.923077 L403.230769,162.410256 L416.564103,162.410256 L416.564103,169.076923 L403.230769,169.076923 L403.230769,179.076923 Z" id="path-2"></path>
+        <filter x="-28.6%" y="-12.5%" width="157.1%" height="135.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-2" transform="translate(-472.000000, -2899.000000)" fill-rule="nonzero">
+            <g id="background" transform="translate(1.000000, 873.000000)">
+                <g id="logos" transform="translate(81.000000, 1882.000000)">
+                    <g id="eagle-logo">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use fill="url(#radialGradient-1)" xlink:href="#path-2"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

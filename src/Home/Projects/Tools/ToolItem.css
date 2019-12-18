@@ -1,0 +1,27 @@
+.tool-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0.125rem 1.0375rem;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: border-top-color 0.15s, border-bottom-color 0.15s, border-left-color 0.15s, border-right-color 0.15s;
+    cursor: pointer;
+}
+
+.tool-item-title {
+    color: #A7ABB3;
+    font-weight: normal;
+    font-size: 0.9375rem;
+    margin-top: 0.6875rem;
+    text-align: center;
+}
+
+.tool-item-image {
+    cursor: pointer;
+    height: 40px;
+    width: auto;
+}

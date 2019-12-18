@@ -1,0 +1,21 @@
+.btn {
+    color: #3D128D;
+    border-radius: 9999px;
+    border-color: #3D128D;
+}
+
+.btn:hover {
+    background-color: #7D4CBD;
+    border-color: #3D128D;
+}
+
+.btn:active {
+    background-color: #3D128D !important;
+    border-color: #3D128D !important;
+    box-shadow: 0 0 0 0.2rem rgba(125, 76, 189, 0.5) !important;
+}
+
+.btn:focus {
+    border-color: #3D128D;
+    box-shadow: 0 0 0 0.2rem rgba(125, 76, 189, 0.5);
+}

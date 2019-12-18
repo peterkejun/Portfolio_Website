@@ -1,0 +1,85 @@
+.landing-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    overflow: hidden;
+    background-color: #222222;
+    /*background-image: url("../../img/abstract_mountain.svg");*/
+    /*background-attachment: fixed;*/
+}
+
+.vanta-container {
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.ml11 {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-weight: 600;
+    font-size: 7.125rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.ml11 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 4px;
+    border-radius: 2px;
+    background-color: #fff;
+    transform-origin: 0 50%;
+}
+
+.ml11 .line1 {
+    top: 0;
+    left: 0;
+}
+
+.letters {
+    /*opacity: 0;*/
+}
+
+.ml11 .letter {
+    display: inline-block;
+    line-height: 1em;
+    opacity: 0;
+}
+
+.go-to-projects-button {
+    z-index: 3;
+    position: absolute;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.go-to-projects-link {
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .ml11 {
+        margin-left: 5rem;
+        width: auto;
+    }
+    .vanta-container {
+        margin-left: 10rem;
+        align-items: center;
+    }
+}

@@ -1,21 +1,280 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectId" id="1V8c4k4iJWvjHSkCWwG3wFGmkva" />
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_interpreter_path" value="node" />
+  <component name="ChangeListManager">
+    <list default="true" id="357f65ef-f5c3-43b5-9560-42583d4962c0" name="Default Changelist" comment="new project">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Background/BackgroundPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Background/BackgroundPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Background/SegmentedControl/SegmentedControl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Background/SegmentedControl/SegmentedControl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Background/SegmentedControl/SegmentedControlItem.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Background/SegmentedControl/SegmentedControlItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Contact/ContactImagePage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Contact/ContactImagePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Contact/ContactPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Contact/ContatctPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/ContactOptions/ContactOptionsItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/ContactOptions/ContactOptionsPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Footer/FooterPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Footer/FooterPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Home.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Landing/LandingImagePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Landing/LandingPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Landing/LandingTextPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Landing/vanta_src/LandingPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Landing/vanta_src/_base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Landing/vanta_src/_p5Base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Landing/vanta_src/_shaderBase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Landing/vanta_src/gallery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Landing/vanta_src/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Landing/vanta_src/skeleton.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Landing/vanta_src/styles.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Landing/vanta_src/vanta.birds.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Landing/vanta_src/vanta.cells.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Landing/vanta_src/vanta.clouds.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Landing/vanta_src/vanta.clouds2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Landing/vanta_src/vanta.dots.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Landing/vanta_src/vanta.fog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Landing/vanta_src/vanta.globe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Landing/vanta_src/vanta.net.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Landing/vanta_src/vanta.rings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Landing/vanta_src/vanta.ripple.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Landing/vanta_src/vanta.topology.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Landing/vanta_src/vanta.trunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Landing/vanta_src/vanta.waves.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Milestone/MilestonePage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Milestone/MilestonePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Milestone/MilestoneUtilityPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Milestone/MilestoneUtilityPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Milestone/Text/MilestoneCard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Milestone/Text/MilestoneCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Milestone/Text/MilestoneCardDateLabel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Milestone/Text/MilestoneCardDateLabel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Milestone/Text/MilestoneTextPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Milestone/Text/MilestoneTextPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Projects/Project2/ProjectDisplayPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Projects/Project2/ProjectDisplayPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Projects/Project2/ProjectItem2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Projects/Project2/ProjectItem2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Projects/Project2/ProjectNavBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Projects/Project2/ProjectNavBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Projects/Project2/ProjectPage2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Projects/Project2/ProjectPage2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Projects/Project2/ProjectSideBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Projects/Project2/ProjectSideBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Projects/ProjectItem.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Projects/ProjectItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Projects/ProjectsPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Projects/ProjectsPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Projects/Tools/ToolItem.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Projects/Tools/ToolItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Projects/Tools/ToolsPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Projects/Tools/ToolsPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Nav/NavBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Nav/NavItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Nav/NavMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/Presentation/ProjectDisplayPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/Presentation/ProjectDisplayPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/Presentation/ProjectPresentationPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/Presentation/ProjectScrollCenterItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/Presentation/ProjectScrollTopBottomItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/Presentation/ProjectsScrollBottomPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/Presentation/ProjectsScrollCenterPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/Presentation/ProjectsScrollPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/Presentation/ProjectsScrollTopPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/ProjectsAppPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/ProjectsGridItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/ProjectsGridPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/ProjectsGridPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/ProjectsPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/ProjectsPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/ProjectsViewToggler.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/ProjectsViewToggler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/Sidebar/ProjectSideBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/Sidebar/ProjectSideControlPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/Sidebar/ProjectSideListItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/Sidebar/ProjectSideListPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/Sidebar/ProjectSideSoftHardToggler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utilities/Calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utilities/CalendarDayItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/abstract_mountain.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/app_store_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/backstripe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/collaboration.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/contact_bottom.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/contact_top.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/credit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/grid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/grid_gray.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icon-next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icon-previous.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icon_next_white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icon_previous_white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/idea.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/landing_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/landing_isometric.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/light_sequencer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/linked_in_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/mandarin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/megaphone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/menu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/milestone_background.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/networking.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/pinyin_assistant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/profile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/question.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/relative_bible.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/resume.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/right_arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/support.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/thermometer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/tools/autocad_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/tools/carthage.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/tools/clion_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/tools/cocoapods_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/tools/eagle_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/tools/gcp_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/tools/github_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/tools/graphql_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/tools/intellij_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/tools/mplab_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/tools/mysql_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/tools/photoshop_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/tools/phpstorm_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/tools/sketch_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/tools/sqlite_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/window.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/window_gray.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1V8c4k4iJWvjHSkCWwG3wFGmkva" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="357f65ef-f5c3-43b5-9560-42583d4962c0" name="Default Changelist" comment="" />
+      <created>1576637973712</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576637973712</updated>
+      <workItem from="1576637976157" duration="497000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new project" />
+    <option name="LAST_COMMIT_MESSAGE" value="new project" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1576638295657">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1576638295657" />
+    <state width="1398" height="199" key="GridCell.Tab.0.bottom" timestamp="1576638161888">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="199" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576638161888" />
+    <state width="1398" height="199" key="GridCell.Tab.0.center" timestamp="1576638161887">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="199" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1576638161887" />
+    <state width="1398" height="199" key="GridCell.Tab.0.left" timestamp="1576638161880">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="199" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1576638161880" />
+    <state width="1398" height="199" key="GridCell.Tab.0.right" timestamp="1576638161888">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="199" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1576638161888" />
+    <state x="399" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1576637976555">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="399" y="267" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1576637976555" />
   </component>
 </project>
