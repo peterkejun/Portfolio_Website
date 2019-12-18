@@ -6,7 +6,7 @@ let THREE = (typeof window == 'object' && window.THREE)
 class Rings extends VantaBase {
   static initClass() {
     this.prototype.defaultOptions = {
-      backgroundColor: 0x202428,
+      backgroundColor: 0x222222,
       color: 0x88ff00
     };
 
