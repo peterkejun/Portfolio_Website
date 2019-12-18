@@ -75,32 +75,13 @@ export class ProjectsPage extends React.Component {
             )
     }
 
-    // layout_card(items) {
-    //     let groups = [];
-    //     const num_columns = 4;
-    //     const num_rows = items.length / num_columns;
-    //     for (let i = 0; i < num_rows; i++) {
-    //         const group = [
-    //             <div className={'card-group programming-experience-display-container'}>
-    //                 {
-    //                     items.slice(i * num_columns, (i + 1) * num_columns).map((item, key) =>
-    //                         <ProjectItem item={item} key={key} />
-    //                     )
-    //                 }
-    //             </div>
-    //         ];
-    //         groups.push(group);
-    //     }
-    //     return groups;
-    // }
-
     render() {
         return <div className={'projects-page-container'}>
             <h1 className={'section-title programming-experience-title'}>Programming Experience</h1>
-            <p className={'section-subtitle col-lg-6 offset-lg-3 programming-experience-description'}>I like to explore how building connections between particular technologies can bring surprising results. I have come up with a few personal projects. </p>
+            <p className={'section-subtitle col-xl-7 col-lg-8 col-md-9 col-sm-7 col-10 programming-experience-description'}>I like to explore how building connections between particular technologies can bring surprising results. I have come up with a few personal projects. </p>
             {/*<SegmentedControl items ={this.state.types} selected_item={this.state.selected_language} onSelect={this.selectionChanged.bind(this)} />*/}
             <div className={'display-container'}>
-                <div className={'card-columns programming-experience-display-container'}>
+                <div className={'programming-experience-display-container'}>
                     {
                         this.state.visible_items.map((item, i) =>
                             <ProjectItem item={item} key={i} />

@@ -10,12 +10,15 @@ export class LandingPage extends React.Component {
     constructor(props) {
         super(props);
         this.vantaRef = React.createRef()
+        this.load_vanta = true;
     }
     componentDidMount() {
-        this.vantaEffect = Rings({
-            el: this.vantaRef.current,
-            THREE: THREE,
-        });
+        if (this.load_vanta) {
+            this.vantaEffect = Rings({
+                el: this.vantaRef.current,
+                THREE: THREE,
+            });
+        }
         var textWrapper = document.querySelector('.ml12');
         textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
@@ -31,7 +34,7 @@ export class LandingPage extends React.Component {
             });
     }
     componentWillUnmount() {
-        if (this.vantaEffect) this.vantaEffect.destroy()
+        if (this.load_vanta && this.vantaEffect) this.vantaEffect.destroy()
     }
 
     render() {

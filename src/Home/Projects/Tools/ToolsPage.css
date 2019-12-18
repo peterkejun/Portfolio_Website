@@ -1,8 +1,9 @@
 .tools-page-container {
     background-color: #222222;
     /*border-radius: 13px;*/
-    padding: 0 1rem;
-    margin: 0 0.75rem -2rem 0.75rem;
+    padding: 0 0.5rem;
+    margin: 0 0.25rem -2rem 0.25rem;
+    max-width: 90rem;
     /*box-shadow: 0 3px 23px 2px rgba(0, 0, 0, 0.5);*/
 }
 
@@ -17,11 +18,8 @@
 
 .tools-page-logos-container {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: flex-start;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 100px);
 }
 
 .tools-page-separator {
@@ -77,11 +75,7 @@
 }
 
 .tools-detail-toggle-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 1.3125rem;
-    margin-bottom: 1.9375rem;
+    display: none;
 }
 
 .tools-detail-paragraph {
@@ -92,6 +86,7 @@
 .tools-detail-display-container {
     display: flex;
     justify-content: flex-start;
+    margin-bottom: 1.3125rem;
 }
 
 .tools-detail-paragraph {
@@ -107,10 +102,22 @@
 
 @media (min-width: 768px) {
     .tools-page-container {
+        padding: 0 2rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .tools-page-container {
         padding: 0 4.3125rem;
         margin: 0 5.0625rem -2rem 5.0625rem;
     }
     .tools-page-title {
         text-align: left;
+    }
+    .tools-detail-toggle-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1.9375rem;
     }
 }

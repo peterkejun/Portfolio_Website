@@ -12,22 +12,8 @@
     /*min-width: 18.75rem;*/
     transition: 0.3s;
     cursor: pointer;
-
-    /*margin-left: 1.125rem;*/
-    /*margin-right: 1.125rem;*/
-
-    /*animation-name: fadeIn;*/
-    /*animation-duration: 0.3s;*/
+    /*max-width: 23rem;*/
 }
-
-/*@keyframes fadeIn {*/
-/*    from {*/
-/*        transform: scale(0.8);*/
-/*    }*/
-/*    to {*/
-/*        transform: scale(1);*/
-/*    }*/
-/*}*/
 
 .project-item-container:hover {
     box-shadow: 0 7px 15px 15px rgba(0,0,0,0.1), 0 7px 15px 0 rgba(0,0,0,0.1);
@@ -114,58 +100,8 @@
     margin-bottom: 0.25rem;
 }
 
-@media (min-width: 640px) {
-    .project-item-container {
-        min-width: 18.75rem;
-    }
-}
-
-/*@media (min-width: 576px) { ... }*/
-
-/*Medium devices (tablets, 768px and up)*/
-/*@media (min-width: 600px) {*/
+/*@media (min-width: 640px) {*/
 /*    .project-item-container {*/
-/*        margin-left: 1.125rem;*/
-/*        margin-right: 1.125rem;*/
-/*    }*/
-/*}*/
-
-/*Large devices (desktops, 992px and up)*/
-/*@media (min-width: 992px) {*/
-/*    .project-item-container {*/
-/*        display: flex;*/
-/*        flex-direction: row;*/
-/*        justify-content: center;*/
-/*        align-items: stretch;*/
-/*        max-width: 100%;*/
-/*        margin-left: 2rem;*/
-/*        margin-right: 2rem;*/
-/*    }*/
-/*    .project-item-half-container {*/
-/*        max-width: 50%;*/
-/*        display: flex;*/
-/*        justify-content: center;*/
-/*        align-items: center;*/
-/*        margin-top: 0;*/
-/*    }*/
-/*    .project-item-image-container {*/
-/*        margin: 1rem 0 1rem 1rem;*/
-/*        border-radius: 0.8125rem;*/
-/*        border: solid white 2px;*/
-/*        box-shadow: 0 3px 23px 2px rgba(40, 40, 40,1);*/
-/*    }*/
-/*}*/
-
-/*Extra large devices (large desktops, 1200px and up)*/
-/*@media (min-width: 1200px) {*/
-/*    .project-item-image-container {*/
-/*        margin: 2rem 0 2rem 2rem;*/
-/*    }*/
-/*}*/
-
-/*@media (min-width: 1350px) {*/
-/*    .project-item-image-container {*/
-/*        !*margin-right: 4rem;*!*/
-/*        !*margin-left: 4rem;*!*/
+/*        min-width: 18.75rem;*/
 /*    }*/
 /*}*/

@@ -35,7 +35,7 @@ export class FooterPage extends React.Component {
                     </div>
                 </div>
                 <div className={'container footer-credit-container'}>
-                    <img src={credit} alt={'credit'} />
+                    <img className={'footer-icon-img'} src={credit} alt={'credit'} />
                     <div className={'container-fluid footer-credit-text-container'}>
                         <h1 className={'footer-credit-title'}>Credits</h1>
                         <table className={'footer-credit-table'}>

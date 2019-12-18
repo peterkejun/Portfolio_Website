@@ -4,7 +4,7 @@
 
 .section-title {
   font-weight: bold;
-  font-size: 4.25rem;
+  font-size: 1.75rem;
   color: #444444;
   margin-top: 4rem;
   text-align: center;
@@ -13,8 +13,35 @@
 .section-subtitle {
   text-align: center;
   font-weight: normal;
-  font-size: 1.625rem;
+  font-size: 1rem;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   color: #777777;
+}
+
+@media (min-width: 768px) {
+  .section-title {
+    font-size: 2.5rem;
+  }
+  .section-subtitle {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .section-title {
+    font-size: 3rem;
+  }
+  .section-subtitle {
+    font-size: 1.75rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-title {
+    font-size: 4.25rem;
+  }
+  .section-subtitle {
+    font-size: 1.75rem;
+  }
 }
