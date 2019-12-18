@@ -157,7 +157,9 @@ export class ToolsPage extends React.Component {
             <hr className={'tools-page-separator'} />
             <div className={'tools-detail-container'}>
                 <div className={'container-fluid tools-detail-display-container'}>
-                    <img className={'tool-detail-image'} src={this.tools_count === 0 ? null : this.tools[this.state.selected_tool].img_url + '?sanitize=true'} alt={'tool'} />
+                    <a target={'_blank'} href={this.tools_count === 0 ? null : this.tools[this.state.selected_tool].link_url}>
+                        <img className={'tool-detail-image'} src={this.tools_count === 0 ? null : this.tools[this.state.selected_tool].img_url + '?sanitize=true'} alt={'tool'}/>
+                    </a>
                     <p className={'tools-detail-paragraph'}>
                         {this.tools_count === 0 ? '' : this.tools[this.state.selected_tool].description}
                     </p>
