@@ -3,17 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="357f65ef-f5c3-43b5-9560-42583d4962c0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/Background/BackgroundPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Background/BackgroundPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/Background/BackgroundPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Background/BackgroundPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/Contact/ContatctPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Contact/ContatctPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/Landing/LandingPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Landing/LandingPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/Landing/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Landing/LandingPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/Projects/ProjectItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Projects/ProjectItem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/Projects/Project2/ProjectItem2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Projects/Project2/ProjectItem2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/Projects/ProjectItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Projects/ProjectItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Home/Projects/ProjectsPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Projects/ProjectsPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/Projects/ProjectsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Projects/ProjectsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/Projects/Tools/ToolsPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Projects/Tools/ToolsPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +93,9 @@
       <workItem from="1576647448515" duration="335000" />
       <workItem from="1576694467082" duration="56000" />
       <workItem from="1576694525808" duration="145000" />
-      <workItem from="1576694749780" duration="6435000" />
+      <workItem from="1576694749780" duration="6621000" />
+      <workItem from="1576702525280" duration="1000" />
+      <workItem from="1576966589779" duration="247000" />
     </task>
     <task id="LOCAL-00001" summary="new project">
       <created>1576638557932</created>
@@ -131,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576647854174</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new project">
+      <created>1576702219566</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576702219566</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,38 +147,38 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1576645704105" />
-    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1576647853938">
+    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1576702219307">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1576647853938" />
-    <state width="1398" height="199" key="GridCell.Tab.0.bottom" timestamp="1576702203046">
+    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1576702219307" />
+    <state width="1398" height="199" key="GridCell.Tab.0.bottom" timestamp="1576966834719">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="199" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576702203046" />
-    <state width="1398" height="199" key="GridCell.Tab.0.center" timestamp="1576702203045">
+    <state width="1398" height="199" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576966834719" />
+    <state width="1398" height="199" key="GridCell.Tab.0.center" timestamp="1576966834718">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="199" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1576702203045" />
-    <state width="1398" height="199" key="GridCell.Tab.0.left" timestamp="1576702203044">
+    <state width="1398" height="199" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1576966834718" />
+    <state width="1398" height="199" key="GridCell.Tab.0.left" timestamp="1576966834717">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="199" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1576702203044" />
-    <state width="1398" height="199" key="GridCell.Tab.0.right" timestamp="1576702203045">
+    <state width="1398" height="199" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1576966834717" />
+    <state width="1398" height="199" key="GridCell.Tab.0.right" timestamp="1576966834718">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="199" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1576702203045" />
+    <state width="1398" height="199" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1576966834718" />
     <state x="480" y="168" key="RollbackChangesDialog" timestamp="1576694642551">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="480" y="168" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1576694642551" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1576647857005">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1576702222820">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1576647857005" />
-    <state x="399" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1576694749814">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1576702222820" />
+    <state x="399" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1576966589447">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="399" y="267" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1576694488384" />
+    <state x="399" y="267" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1576966589447" />
     <state x="399" y="267" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1576694749814" />
   </component>
 </project>

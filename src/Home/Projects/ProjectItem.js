@@ -38,7 +38,7 @@ export class ProjectItem extends React.Component {
             }
         }
         return <Link to={'/projects'}>
-            <div className={'project-item-container card'}>
+            <div className={'project-item-container card'} id={'project-item-container-1'}>
                 <div className={'project-item-half-container'}>
                     <div className={'project-item-image-container'}>
                         <img className={'img-fluid project-item-image'} src={this.props.item.img_url} alt={'thermometer'} />

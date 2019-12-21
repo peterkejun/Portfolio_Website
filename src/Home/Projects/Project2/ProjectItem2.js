@@ -35,7 +35,7 @@ export class ProjectItem2 extends React.Component {
                 )
             }
         }
-        return <div className={'col-sm-12 container-fluid project-item-container project-item2-container'}>
+        return <div className={'container-fluid project-item-container project-item2-container'}>
             <div className={'col-lg-7 col-sm-12 project2-item-text-container'}>
                 <h1 className={'project-item-title'}>{this.props.project.title}</h1>
                 <div className={"date-and-type-container"}>
