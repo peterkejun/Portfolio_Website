@@ -1,8 +1,6 @@
 import React from "react";
-import {ProjectSideBar} from "./ProjectSideBar";
 import './ProjectPage2.css';
 import {ProjectDisplayPage} from "./ProjectDisplayPage";
-import {ProjectNavBar} from "./ProjectNavBar";
 
 export class ProjectPage2 extends React.Component {
 
@@ -38,9 +36,7 @@ export class ProjectPage2 extends React.Component {
 
     render() {
         return <div className={'project-page-container'} ref={this.container_ref} >
-            {/*<ProjectNavBar />*/}
             <ProjectDisplayPage projects={this.state.projects} child_ref={this.display_ref}/>
-            {/*<ProjectSideBar projects={this.state.projects} child_ref={this.sidebar_ref} />*/}
         </div>
     }
 

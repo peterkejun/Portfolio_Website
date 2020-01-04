@@ -7,6 +7,7 @@ import close from '../../../img/close.svg';
 import  { Link } from 'react-router-dom';
 import './ProjectNavBar.css';
 import './ProjectSideBar.css';
+import './ProjectLightBox.css';
 
 export class ProjectDisplayPage extends React.Component {
 
@@ -15,6 +16,7 @@ export class ProjectDisplayPage extends React.Component {
         this.display_ref = React.createRef();
         this.state = {
             show_side_bar: window.innerWidth >= 768,
+            lightbox_img_url: null,
         };
         window.addEventListener('resize', this.resize.bind(this));
         this.previous_size = window.innerWidth >= 768 ? 'l' : 's';
@@ -24,6 +26,7 @@ export class ProjectDisplayPage extends React.Component {
         if (this.display_ref.current.getBoundingClientRect().width >= 768) return;
         this.setState( {
             show_side_bar: true,
+            lightbox_img_url: this.state.lightbox_img_url,
         })
     }
 
@@ -34,10 +37,12 @@ export class ProjectDisplayPage extends React.Component {
         if (window.innerWidth >= 768) {
             this.setState({
                 show_side_bar: true,
+                lightbox_img_url: this.state.lightbox_img_url,
             })
         } else {
             this.setState({
-                show_side_bar: false
+                show_side_bar: false,
+                lightbox_img_url: this.state.lightbox_img_url,
             })
         }
     }
@@ -45,12 +50,45 @@ export class ProjectDisplayPage extends React.Component {
     close() {
         this.setState({
             show_side_bar: false,
+            lightbox_img_url: this.state.lightbox_img_url,
         })
+    }
+
+    display_lightbox(img_url) {
+        this.enable_scroll(false);
+        this.setState({
+            show_side_bar: this.state.show_side_bar,
+            lightbox_img_url: img_url,
+        })
+    }
+
+    close_lightbox() {
+        this.enable_scroll(true);
+        this.setState({
+            show_side_bar: this.state.show_side_bar,
+            lightbox_img_url: null,
+        })
+    }
+
+    enable_scroll(flag) {
+        if (flag) {
+            window.removeEventListener('scroll', this.on_scroll);
+        } else {
+            this.no_scroll_y_offset = window.pageYOffset;
+            window.addEventListener('scroll', this.on_scroll);
+        }
+    }
+
+    on_scroll() {
+        window.scrollTo(window.pageXOffset, this.no_scroll_y_offset);
     }
 
     render() {
         const sidebar_style = {
             display: window.innerWidth >= 768 ? 'flex' : (this.state.show_side_bar ? 'flex' : 'none'),
+        };
+        const lightbox_style = {
+            display: this.state.lightbox_img_url == null ? 'none' : 'flex',
         };
         return (
             <div className={'project-display-container'} ref={this.display_ref}>
@@ -77,9 +115,17 @@ export class ProjectDisplayPage extends React.Component {
                 <div className={'col-md-9 col-xs-12 project-display-page-container'} ref={this.props.child_ref}>
                     {
                         this.props.projects.map((project, i) =>
-                            <ProjectItem2 project={project} key={i} />
+                            <ProjectItem2 project={project} key={i} display_lightbox={this.display_lightbox.bind(this)} />
                         )
                     }
+                </div>
+                <div className={'lightbox-container'} style={lightbox_style}>
+                    <div className={'lightbox-close-container'}>
+                        <img className={'lightbox-close-img'} src={close} alt={'close'} onClick={this.close_lightbox.bind(this)} />
+                    </div>
+                    <div className={'lightbox-img-container'}>
+                        <img className={'lightbox-img'} src={this.state.lightbox_img_url} alt={'lightbox'} />
+                    </div>
                 </div>
             </div>
         );

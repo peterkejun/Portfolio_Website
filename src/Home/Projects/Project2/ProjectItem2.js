@@ -47,7 +47,7 @@ export class ProjectItem2 extends React.Component {
                 </div>
             </div>
             <div className={'col-lg-5 col-sm-12 project2-item-image-container'}>
-                <img className={'img-fluid project-item2-image'} src={this.props.project.img_url} alt={'project item'} />
+                <img className={'img-fluid project-item2-image'} src={this.props.project.img_url} alt={'project item'} onClick={this.props.display_lightbox.bind(this, this.props.project.img_url)}/>
                 <h1 className={'project-item-text click-to-view-title'}>Click to view</h1>
             </div>
         </div>
