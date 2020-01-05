@@ -1,6 +1,7 @@
 # Portfolio Website
 * This is a repo for the [React](https://reactjs.org/) front-end of my portfolio website. 
 * For the back-end, please see my repo [Portfolio-Website-Back-End](https://github.com/pierrebeasley/Portfolio-Website-Back-End)
+* The website is reachable at http://peterke.info
 
 ## Framework and Libraries
 * [React](https://reactjs.org/): *Interactive*
