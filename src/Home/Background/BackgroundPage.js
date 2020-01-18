@@ -21,7 +21,7 @@ export class BackgroundPage extends React.Component {
                         <div className={'col-lg-6 background-footprint-container'}>
                             <h1 className={'background-subtitle'}>Footprints</h1>
                             <div className={'background-footprint-img-container'}>
-                                <a href={'https://github.com/pierrebeasley'} target={'_blank'}>
+                                <a href={'https://github.com/peterkejun'} target={'_blank'}>
                                     <img className={'background-footprint-img background-footprint-img-start-edge'} src={github} alt={'Github'} />
                                 </a>
                                 <a href={'https://www.linkedin.com/in/jun-ke-12465b195/'} target={'_blank'}>
