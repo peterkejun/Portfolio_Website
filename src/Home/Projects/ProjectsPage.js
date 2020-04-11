@@ -48,7 +48,7 @@ export class ProjectsPage extends React.Component {
 
     componentDidMount() {
         //http://127.0.0.1:8080?prop_type=programming
-        fetch("http://ec2-3-19-185-142.us-east-2.compute.amazonaws.com/index.php?prop_type=programming", {
+        fetch("http://18.189.192.127/portfolio.php?prop_type=programming", {
             method: 'GET',
         })
             .then(res => res.json())

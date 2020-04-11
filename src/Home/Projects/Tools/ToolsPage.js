@@ -56,7 +56,7 @@ export class ToolsPage extends React.Component {
 
     componentDidMount() {
         console.log('sdf')
-        fetch("http://ec2-3-19-185-142.us-east-2.compute.amazonaws.com/index.php?prop_type=tools", {
+        fetch("http://18.189.192.127/portfolio.php?prop_type=tools", {
             method: 'GET',
         })
             .then(res => res.json())
