@@ -16,7 +16,7 @@ export class BackgroundPage extends React.Component {
                     <div className={'background-subtitles-container'}>
                         <div className={'col-lg-6 background-education-container'}>
                             <h1 className={'background-subtitle'}>Education</h1>
-                            <p className={'background-small-paragraph'}>1A Software Engineering,<br />University of Waterloo</p>
+                            <p className={'background-small-paragraph'}>1B Software Engineering,<br />University of Waterloo</p>
                         </div>
                         <div className={'col-lg-6 background-footprint-container'}>
                             <h1 className={'background-subtitle'}>Footprints</h1>
@@ -24,7 +24,7 @@ export class BackgroundPage extends React.Component {
                                 <a href={'https://github.com/peterkejun'} target={'_blank'}>
                                     <img className={'background-footprint-img background-footprint-img-start-edge'} src={github} alt={'Github'} />
                                 </a>
-                                <a href={'https://www.linkedin.com/in/jun-ke-12465b195/'} target={'_blank'}>
+                                <a href={'https://www.linkedin.com/in/peter-ke-12465b195/'} target={'_blank'}>
                                     <img className={'background-footprint-img'} src={linkedin} alt={'LinkedIn'} />
                                 </a>
                                 <img className={'background-footprint-img background-footprint-img-end-edge'} src={appstore} alt={'App Store'} />
