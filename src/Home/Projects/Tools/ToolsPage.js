@@ -55,14 +55,12 @@ export class ToolsPage extends React.Component {
     }
 
     componentDidMount() {
-        console.log('sdf')
-        fetch("http://18.189.192.127/portfolio.php?prop_type=tools", {
+        fetch("https://server.peterke.info/portfolio.php?prop_type=tools", {
             method: 'GET',
         })
             .then(res => res.json())
             .then(
                 (result) => {
-                    console.log('kkk')
                     this.tools = result;
                     this.tools_count = result.length;
                     this.setState({
